@@ -1,0 +1,6 @@
+=== 0.0.1 / 2016-02-07
+
+* 1 major enhancement
+
+  * ZOMG
+
