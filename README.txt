@@ -29,7 +29,13 @@ The gem that never forgets where your fonts are.
 
 == INSTALL:
 
+Linux:
+
 `sudo apt-get install libfontconfig1-dev`
+
+On OS X:
+
+`brew install fontconfig`
 
 == DEVELOPERS:
 
