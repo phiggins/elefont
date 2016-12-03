@@ -23,7 +23,7 @@ elefont_best_match(VALUE klass, VALUE str)
   if (match) {
     FcChar8* file = NULL;
     if (FcPatternGetString(match, FC_FILE, 0, &file) == FcResultMatch) {
-      fontFile = rb_usascii_str_new_cstr((char*)file);
+      fontFile = rb_utf8_str_new_cstr((char*)file);
     }
   }
 
